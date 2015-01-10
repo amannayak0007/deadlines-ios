@@ -13,7 +13,22 @@
 		F6DCC0981A5D708600E16E8A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6DCC0961A5D708600E16E8A /* Main.storyboard */; };
 		F6DCC09A1A5D708600E16E8A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6DCC0991A5D708600E16E8A /* Images.xcassets */; };
 		F6DCC09D1A5D708600E16E8A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F6DCC09B1A5D708600E16E8A /* LaunchScreen.xib */; };
-		F6DCC0A91A5D708600E16E8A /* ToDoAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F6DCC0A81A5D708600E16E8A /* ToDoAppTests.m */; };
+		F6DCC0A91A5D708600E16E8A /* DeadlinesTest.m in Sources */ = {isa = PBXBuildFile; fileRef = F6DCC0A81A5D708600E16E8A /* DeadlinesTest.m */; };
+		F6DCC0B41A5D727100E16E8A /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F6DCC0B31A5D727100E16E8A /* CustomCell.m */; };
+		F6DCC0DE1A5EA6CE00E16E8A /* UMTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F6DCC0DD1A5EA6CE00E16E8A /* UMTableViewCell.m */; };
+		F6DCC0EB1A5EA6D400E16E8A /* NSMutableArray+SWUtilityButtons.m in Sources */ = {isa = PBXBuildFile; fileRef = F6DCC0E01A5EA6D400E16E8A /* NSMutableArray+SWUtilityButtons.m */; };
+		F6DCC0EC1A5EA6D400E16E8A /* SWCellScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = F6DCC0E21A5EA6D400E16E8A /* SWCellScrollView.m */; };
+		F6DCC0ED1A5EA6D400E16E8A /* SWLongPressGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = F6DCC0E41A5EA6D400E16E8A /* SWLongPressGestureRecognizer.m */; };
+		F6DCC0EE1A5EA6D400E16E8A /* SWTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F6DCC0E61A5EA6D400E16E8A /* SWTableViewCell.m */; };
+		F6DCC0EF1A5EA6D400E16E8A /* SWUtilityButtonTapGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = F6DCC0E81A5EA6D400E16E8A /* SWUtilityButtonTapGestureRecognizer.m */; };
+		F6DCC0F01A5EA6D400E16E8A /* SWUtilityButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = F6DCC0EA1A5EA6D400E16E8A /* SWUtilityButtonView.m */; };
+		F6DCC0F51A5EC88200E16E8A /* nyc.png in Resources */ = {isa = PBXBuildFile; fileRef = F6DCC0F41A5EC88200E16E8A /* nyc.png */; };
+		F6DCC0FB1A5F0D2600E16E8A /* Mail Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F6DCC0F81A5F0D2600E16E8A /* Mail Icon.png */; };
+		F6DCC0FD1A5F0D9700E16E8A /* phone-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F6DCC0FC1A5F0D9700E16E8A /* phone-icon.png */; };
+		F6DCC0FF1A5F11E900E16E8A /* chat-icon2.png in Resources */ = {isa = PBXBuildFile; fileRef = F6DCC0FE1A5F11E900E16E8A /* chat-icon2.png */; };
+		F6DCC1021A5FFDA400E16E8A /* CompletedCustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F6DCC1011A5FFDA400E16E8A /* CompletedCustomCell.m */; };
+		F6DCC1051A604F3D00E16E8A /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6DCC1031A604F3D00E16E8A /* AddressBook.framework */; };
+		F6DCC1061A604F3D00E16E8A /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6DCC1041A604F3D00E16E8A /* AddressBookUI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,7 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		F6DCC0891A5D708600E16E8A /* ToDoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6DCC0891A5D708600E16E8A /* Deadlines.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Deadlines.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6DCC08D1A5D708600E16E8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F6DCC08E1A5D708600E16E8A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F6DCC0901A5D708600E16E8A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -37,9 +52,33 @@
 		F6DCC0971A5D708600E16E8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F6DCC0991A5D708600E16E8A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F6DCC09C1A5D708600E16E8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		F6DCC0A21A5D708600E16E8A /* ToDoAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToDoAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6DCC0A21A5D708600E16E8A /* DeadlinesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeadlinesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6DCC0A71A5D708600E16E8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F6DCC0A81A5D708600E16E8A /* ToDoAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToDoAppTests.m; sourceTree = "<group>"; };
+		F6DCC0A81A5D708600E16E8A /* DeadlinesTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeadlinesTest.m; sourceTree = "<group>"; };
+		F6DCC0B21A5D727100E16E8A /* CustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCell.h; sourceTree = "<group>"; };
+		F6DCC0B31A5D727100E16E8A /* CustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCell.m; sourceTree = "<group>"; };
+		F6DCC0DC1A5EA6CE00E16E8A /* UMTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMTableViewCell.h; sourceTree = "<group>"; };
+		F6DCC0DD1A5EA6CE00E16E8A /* UMTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UMTableViewCell.m; sourceTree = "<group>"; };
+		F6DCC0DF1A5EA6D400E16E8A /* NSMutableArray+SWUtilityButtons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+SWUtilityButtons.h"; sourceTree = "<group>"; };
+		F6DCC0E01A5EA6D400E16E8A /* NSMutableArray+SWUtilityButtons.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+SWUtilityButtons.m"; sourceTree = "<group>"; };
+		F6DCC0E11A5EA6D400E16E8A /* SWCellScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWCellScrollView.h; sourceTree = "<group>"; };
+		F6DCC0E21A5EA6D400E16E8A /* SWCellScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWCellScrollView.m; sourceTree = "<group>"; };
+		F6DCC0E31A5EA6D400E16E8A /* SWLongPressGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWLongPressGestureRecognizer.h; sourceTree = "<group>"; };
+		F6DCC0E41A5EA6D400E16E8A /* SWLongPressGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWLongPressGestureRecognizer.m; sourceTree = "<group>"; };
+		F6DCC0E51A5EA6D400E16E8A /* SWTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWTableViewCell.h; sourceTree = "<group>"; };
+		F6DCC0E61A5EA6D400E16E8A /* SWTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWTableViewCell.m; sourceTree = "<group>"; };
+		F6DCC0E71A5EA6D400E16E8A /* SWUtilityButtonTapGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWUtilityButtonTapGestureRecognizer.h; sourceTree = "<group>"; };
+		F6DCC0E81A5EA6D400E16E8A /* SWUtilityButtonTapGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWUtilityButtonTapGestureRecognizer.m; sourceTree = "<group>"; };
+		F6DCC0E91A5EA6D400E16E8A /* SWUtilityButtonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWUtilityButtonView.h; sourceTree = "<group>"; };
+		F6DCC0EA1A5EA6D400E16E8A /* SWUtilityButtonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWUtilityButtonView.m; sourceTree = "<group>"; };
+		F6DCC0F41A5EC88200E16E8A /* nyc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nyc.png; sourceTree = "<group>"; };
+		F6DCC0F81A5F0D2600E16E8A /* Mail Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Mail Icon.png"; sourceTree = "<group>"; };
+		F6DCC0FC1A5F0D9700E16E8A /* phone-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "phone-icon.png"; sourceTree = "<group>"; };
+		F6DCC0FE1A5F11E900E16E8A /* chat-icon2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chat-icon2.png"; sourceTree = "<group>"; };
+		F6DCC1001A5FFDA400E16E8A /* CompletedCustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompletedCustomCell.h; sourceTree = "<group>"; };
+		F6DCC1011A5FFDA400E16E8A /* CompletedCustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompletedCustomCell.m; sourceTree = "<group>"; };
+		F6DCC1031A604F3D00E16E8A /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		F6DCC1041A604F3D00E16E8A /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +86,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6DCC1051A604F3D00E16E8A /* AddressBook.framework in Frameworks */,
+				F6DCC1061A604F3D00E16E8A /* AddressBookUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,8 +104,8 @@
 		F6DCC0801A5D708600E16E8A = {
 			isa = PBXGroup;
 			children = (
-				F6DCC08B1A5D708600E16E8A /* ToDoApp */,
-				F6DCC0A51A5D708600E16E8A /* ToDoAppTests */,
+				F6DCC08B1A5D708600E16E8A /* Deadlines */,
+				F6DCC0A51A5D708600E16E8A /* DeadlinesTests */,
 				F6DCC08A1A5D708600E16E8A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -72,42 +113,68 @@
 		F6DCC08A1A5D708600E16E8A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F6DCC0891A5D708600E16E8A /* ToDoApp.app */,
-				F6DCC0A21A5D708600E16E8A /* ToDoAppTests.xctest */,
+				F6DCC0891A5D708600E16E8A /* Deadlines.app */,
+				F6DCC0A21A5D708600E16E8A /* DeadlinesTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F6DCC08B1A5D708600E16E8A /* ToDoApp */ = {
+		F6DCC08B1A5D708600E16E8A /* Deadlines */ = {
 			isa = PBXGroup;
 			children = (
 				F6DCC0901A5D708600E16E8A /* AppDelegate.h */,
 				F6DCC0911A5D708600E16E8A /* AppDelegate.m */,
 				F6DCC0931A5D708600E16E8A /* ViewController.h */,
 				F6DCC0941A5D708600E16E8A /* ViewController.m */,
+				F6DCC0B21A5D727100E16E8A /* CustomCell.h */,
+				F6DCC0B31A5D727100E16E8A /* CustomCell.m */,
+				F6DCC1001A5FFDA400E16E8A /* CompletedCustomCell.h */,
+				F6DCC1011A5FFDA400E16E8A /* CompletedCustomCell.m */,
 				F6DCC0961A5D708600E16E8A /* Main.storyboard */,
 				F6DCC0991A5D708600E16E8A /* Images.xcassets */,
 				F6DCC09B1A5D708600E16E8A /* LaunchScreen.xib */,
 				F6DCC08C1A5D708600E16E8A /* Supporting Files */,
 			);
+			name = Deadlines;
 			path = ToDoApp;
 			sourceTree = "<group>";
 		};
 		F6DCC08C1A5D708600E16E8A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F6DCC1031A604F3D00E16E8A /* AddressBook.framework */,
+				F6DCC1041A604F3D00E16E8A /* AddressBookUI.framework */,
+				F6DCC0FE1A5F11E900E16E8A /* chat-icon2.png */,
+				F6DCC0FC1A5F0D9700E16E8A /* phone-icon.png */,
+				F6DCC0F81A5F0D2600E16E8A /* Mail Icon.png */,
+				F6DCC0F41A5EC88200E16E8A /* nyc.png */,
+				F6DCC0DF1A5EA6D400E16E8A /* NSMutableArray+SWUtilityButtons.h */,
+				F6DCC0E01A5EA6D400E16E8A /* NSMutableArray+SWUtilityButtons.m */,
+				F6DCC0E11A5EA6D400E16E8A /* SWCellScrollView.h */,
+				F6DCC0E21A5EA6D400E16E8A /* SWCellScrollView.m */,
+				F6DCC0E31A5EA6D400E16E8A /* SWLongPressGestureRecognizer.h */,
+				F6DCC0E41A5EA6D400E16E8A /* SWLongPressGestureRecognizer.m */,
+				F6DCC0E51A5EA6D400E16E8A /* SWTableViewCell.h */,
+				F6DCC0E61A5EA6D400E16E8A /* SWTableViewCell.m */,
+				F6DCC0E71A5EA6D400E16E8A /* SWUtilityButtonTapGestureRecognizer.h */,
+				F6DCC0E81A5EA6D400E16E8A /* SWUtilityButtonTapGestureRecognizer.m */,
+				F6DCC0E91A5EA6D400E16E8A /* SWUtilityButtonView.h */,
+				F6DCC0EA1A5EA6D400E16E8A /* SWUtilityButtonView.m */,
+				F6DCC0DC1A5EA6CE00E16E8A /* UMTableViewCell.h */,
+				F6DCC0DD1A5EA6CE00E16E8A /* UMTableViewCell.m */,
 				F6DCC08D1A5D708600E16E8A /* Info.plist */,
 				F6DCC08E1A5D708600E16E8A /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		F6DCC0A51A5D708600E16E8A /* ToDoAppTests */ = {
+		F6DCC0A51A5D708600E16E8A /* DeadlinesTests */ = {
 			isa = PBXGroup;
 			children = (
-				F6DCC0A81A5D708600E16E8A /* ToDoAppTests.m */,
+				F6DCC0A81A5D708600E16E8A /* DeadlinesTest.m */,
 				F6DCC0A61A5D708600E16E8A /* Supporting Files */,
 			);
+			name = DeadlinesTests;
 			path = ToDoAppTests;
 			sourceTree = "<group>";
 		};
@@ -122,9 +189,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F6DCC0881A5D708600E16E8A /* ToDoApp */ = {
+		F6DCC0881A5D708600E16E8A /* Deadlines */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F6DCC0AC1A5D708600E16E8A /* Build configuration list for PBXNativeTarget "ToDoApp" */;
+			buildConfigurationList = F6DCC0AC1A5D708600E16E8A /* Build configuration list for PBXNativeTarget "Deadlines" */;
 			buildPhases = (
 				F6DCC0851A5D708600E16E8A /* Sources */,
 				F6DCC0861A5D708600E16E8A /* Frameworks */,
@@ -134,14 +201,14 @@
 			);
 			dependencies = (
 			);
-			name = ToDoApp;
+			name = Deadlines;
 			productName = ToDoApp;
-			productReference = F6DCC0891A5D708600E16E8A /* ToDoApp.app */;
+			productReference = F6DCC0891A5D708600E16E8A /* Deadlines.app */;
 			productType = "com.apple.product-type.application";
 		};
-		F6DCC0A11A5D708600E16E8A /* ToDoAppTests */ = {
+		F6DCC0A11A5D708600E16E8A /* DeadlinesTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F6DCC0AF1A5D708600E16E8A /* Build configuration list for PBXNativeTarget "ToDoAppTests" */;
+			buildConfigurationList = F6DCC0AF1A5D708600E16E8A /* Build configuration list for PBXNativeTarget "DeadlinesTests" */;
 			buildPhases = (
 				F6DCC09E1A5D708600E16E8A /* Sources */,
 				F6DCC09F1A5D708600E16E8A /* Frameworks */,
@@ -152,9 +219,9 @@
 			dependencies = (
 				F6DCC0A41A5D708600E16E8A /* PBXTargetDependency */,
 			);
-			name = ToDoAppTests;
+			name = DeadlinesTests;
 			productName = ToDoAppTests;
-			productReference = F6DCC0A21A5D708600E16E8A /* ToDoAppTests.xctest */;
+			productReference = F6DCC0A21A5D708600E16E8A /* DeadlinesTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -168,6 +235,7 @@
 				TargetAttributes = {
 					F6DCC0881A5D708600E16E8A = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = M2S2477NXM;
 					};
 					F6DCC0A11A5D708600E16E8A = {
 						CreatedOnToolsVersion = 6.1.1;
@@ -175,7 +243,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F6DCC0841A5D708600E16E8A /* Build configuration list for PBXProject "ToDoApp" */;
+			buildConfigurationList = F6DCC0841A5D708600E16E8A /* Build configuration list for PBXProject "Deadlines" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -188,8 +256,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F6DCC0881A5D708600E16E8A /* ToDoApp */,
-				F6DCC0A11A5D708600E16E8A /* ToDoAppTests */,
+				F6DCC0881A5D708600E16E8A /* Deadlines */,
+				F6DCC0A11A5D708600E16E8A /* DeadlinesTests */,
 			);
 		};
 /* End PBXProject section */
@@ -199,9 +267,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6DCC0F51A5EC88200E16E8A /* nyc.png in Resources */,
 				F6DCC0981A5D708600E16E8A /* Main.storyboard in Resources */,
 				F6DCC09D1A5D708600E16E8A /* LaunchScreen.xib in Resources */,
 				F6DCC09A1A5D708600E16E8A /* Images.xcassets in Resources */,
+				F6DCC0FF1A5F11E900E16E8A /* chat-icon2.png in Resources */,
+				F6DCC0FD1A5F0D9700E16E8A /* phone-icon.png in Resources */,
+				F6DCC0FB1A5F0D2600E16E8A /* Mail Icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,9 +291,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F6DCC0951A5D708600E16E8A /* ViewController.m in Sources */,
-				F6DCC0921A5D708600E16E8A /* AppDelegate.m in Sources */,
+				F6DCC1021A5FFDA400E16E8A /* CompletedCustomCell.m in Sources */,
+				F6DCC0DE1A5EA6CE00E16E8A /* UMTableViewCell.m in Sources */,
 				F6DCC08F1A5D708600E16E8A /* main.m in Sources */,
+				F6DCC0EF1A5EA6D400E16E8A /* SWUtilityButtonTapGestureRecognizer.m in Sources */,
+				F6DCC0EE1A5EA6D400E16E8A /* SWTableViewCell.m in Sources */,
+				F6DCC0EB1A5EA6D400E16E8A /* NSMutableArray+SWUtilityButtons.m in Sources */,
+				F6DCC0921A5D708600E16E8A /* AppDelegate.m in Sources */,
+				F6DCC0B41A5D727100E16E8A /* CustomCell.m in Sources */,
+				F6DCC0EC1A5EA6D400E16E8A /* SWCellScrollView.m in Sources */,
+				F6DCC0951A5D708600E16E8A /* ViewController.m in Sources */,
+				F6DCC0F01A5EA6D400E16E8A /* SWUtilityButtonView.m in Sources */,
+				F6DCC0ED1A5EA6D400E16E8A /* SWLongPressGestureRecognizer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,7 +310,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F6DCC0A91A5D708600E16E8A /* ToDoAppTests.m in Sources */,
+				F6DCC0A91A5D708600E16E8A /* DeadlinesTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,7 +319,7 @@
 /* Begin PBXTargetDependency section */
 		F6DCC0A41A5D708600E16E8A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F6DCC0881A5D708600E16E8A /* ToDoApp */;
+			target = F6DCC0881A5D708600E16E8A /* Deadlines */;
 			targetProxy = F6DCC0A31A5D708600E16E8A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -343,9 +424,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = ToDoApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Deadlines;
+				SDKROOT = iphoneos;
 			};
 			name = Debug;
 		};
@@ -353,9 +437,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = ToDoApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Deadlines;
+				SDKROOT = iphoneos;
 			};
 			name = Release;
 		};
@@ -373,8 +460,8 @@
 				);
 				INFOPLIST_FILE = ToDoAppTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ToDoApp.app/ToDoApp";
+				PRODUCT_NAME = DeadlinesTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Deadlines.app/Deadlines";
 			};
 			name = Debug;
 		};
@@ -388,15 +475,15 @@
 				);
 				INFOPLIST_FILE = ToDoAppTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ToDoApp.app/ToDoApp";
+				PRODUCT_NAME = DeadlinesTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Deadlines.app/Deadlines";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F6DCC0841A5D708600E16E8A /* Build configuration list for PBXProject "ToDoApp" */ = {
+		F6DCC0841A5D708600E16E8A /* Build configuration list for PBXProject "Deadlines" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F6DCC0AA1A5D708600E16E8A /* Debug */,
@@ -405,21 +492,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F6DCC0AC1A5D708600E16E8A /* Build configuration list for PBXNativeTarget "ToDoApp" */ = {
+		F6DCC0AC1A5D708600E16E8A /* Build configuration list for PBXNativeTarget "Deadlines" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F6DCC0AD1A5D708600E16E8A /* Debug */,
 				F6DCC0AE1A5D708600E16E8A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		F6DCC0AF1A5D708600E16E8A /* Build configuration list for PBXNativeTarget "ToDoAppTests" */ = {
+		F6DCC0AF1A5D708600E16E8A /* Build configuration list for PBXNativeTarget "DeadlinesTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F6DCC0B01A5D708600E16E8A /* Debug */,
 				F6DCC0B11A5D708600E16E8A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

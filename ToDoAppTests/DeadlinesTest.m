@@ -1,6 +1,6 @@
 //
-//  ToDoAppTests.m
-//  ToDoAppTests
+//  DeadlinesTest.m
+//  Deadlines
 //
 //  Created by Shiv Sakhuja on 1/7/15.
 //  Copyright (c) 2015 Shiv Sakhuja. All rights reserved.
@@ -9,11 +9,11 @@
 #import <UIKit/UIKit.h>
 #import <XCTest/XCTest.h>
 
-@interface ToDoAppTests : XCTestCase
+@interface DeadlinesTests : XCTestCase
 
 @end
 
-@implementation ToDoAppTests
+@implementation DeadlinesTests
 
 - (void)setUp {
     [super setUp];
