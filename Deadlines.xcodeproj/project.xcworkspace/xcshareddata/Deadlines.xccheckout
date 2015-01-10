@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>838F9E05-72BC-4DEF-AA43-72C7501AC0A3</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Deadlines</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>FD3E3DEF62B3F30AD0B4786348A41DE7FF888201</key>
+		<string>https://github.com/shivsak/deadlines-ios.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Deadlines.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>FD3E3DEF62B3F30AD0B4786348A41DE7FF888201</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/shivsak/deadlines-ios.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>FD3E3DEF62B3F30AD0B4786348A41DE7FF888201</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>FD3E3DEF62B3F30AD0B4786348A41DE7FF888201</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ToDoApp</string>
+		</dict>
+	</array>
+</dict>
+</plist>
