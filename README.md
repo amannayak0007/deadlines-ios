@@ -7,3 +7,10 @@ Features:
 - Extend the deadline of a task by 24 hours
 - Assign a task to someone else. (Currently allows assign by email, we're working on adding social task assignment via Facebook)
 - Keeps track of completed tasks as well, so you can review them later
+
+Screenshots:
+
+<img src="http://columbia.edu/~ss4757/resources/app-screenshots/deadlines-1.png" width="200px" alt="Deadlines 1" />
+<img src="http://columbia.edu/~ss4757/resources/app-screenshots/deadlines-2.png" width="200px" alt="Deadlines 2" />
+<img src="http://columbia.edu/~ss4757/resources/app-screenshots/deadlines-3.png" width="200px" alt="Deadlines 3" />
+<img src="http://columbia.edu/~ss4757/resources/app-screenshots/deadlines-4.png" width="200px" alt="Deadlines 4" />
