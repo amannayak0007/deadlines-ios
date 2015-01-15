@@ -10,7 +10,7 @@ Features:
 
 Screenshots:
 
-<img src="http://columbia.edu/~ss4757/resources/app-screenshots/deadlines-1.png" width="200px" alt="Deadlines 1" />
-<img src="http://columbia.edu/~ss4757/resources/app-screenshots/deadlines-2.png" width="200px" alt="Deadlines 2" />
-<img src="http://columbia.edu/~ss4757/resources/app-screenshots/deadlines-3.png" width="200px" alt="Deadlines 3" />
-<img src="http://columbia.edu/~ss4757/resources/app-screenshots/deadlines-4.png" width="200px" alt="Deadlines 4" />
+<img src="http://columbia.edu/~ss4757/resources/app-screenshots/deadlines-1.png" width="175px" alt="Deadlines 1" />
+<img src="http://columbia.edu/~ss4757/resources/app-screenshots/deadlines-2.png" width="175px" alt="Deadlines 2" />
+<img src="http://columbia.edu/~ss4757/resources/app-screenshots/deadlines-3.png" width="175px" alt="Deadlines 3" />
+<img src="http://columbia.edu/~ss4757/resources/app-screenshots/deadlines-4.png" width="175px" alt="Deadlines 4" />
